@@ -20,4 +20,3 @@ print(f"Hello, {b} ", sep="??????")                                         #打
 
 a = test2()
 print(f" {a:.2f} ")
-
