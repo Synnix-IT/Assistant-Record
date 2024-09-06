@@ -1,9 +1,10 @@
 # Calculate E = m * c^2
 
 from math import pow
+from typing import Final
 
 
-SPEED_OF_LIGHT : int = 300_000_000
+SPEED_OF_LIGHT : Final[int] = 300_000_000
 
 
 # Mass-Energy Equivalence
@@ -20,7 +21,7 @@ def check(input : str) -> bool:
 
 # Driver function
 def main() -> None:
-    mass = input()
+    mass : str = input()
 
     while True:
         if check(mass):

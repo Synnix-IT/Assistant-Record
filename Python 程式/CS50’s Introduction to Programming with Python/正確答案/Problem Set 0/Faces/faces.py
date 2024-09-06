@@ -7,7 +7,7 @@ def convert(input : str) -> str:
 
 
 def main() -> None:
-    line = input()
+    line : str = input()
 
     print(convert(line))
 
