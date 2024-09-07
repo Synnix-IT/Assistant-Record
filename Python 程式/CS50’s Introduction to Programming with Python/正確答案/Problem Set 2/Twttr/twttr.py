@@ -4,7 +4,7 @@
 
 from typing import Final
 
-VOWELS : Final[str] = ["A", "E", "I", "O", "U"]
+VOWELS : Final[list[str]] = ["A", "E", "I", "O", "U"]
 
 
 def removeVowels() -> None:
