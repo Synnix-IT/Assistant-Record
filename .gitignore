@@ -14,3 +14,6 @@
 
 # Excel File
 *.xlsx
+
+# SOP
+/標準作業流程 (SOP)
